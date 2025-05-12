@@ -1,0 +1,125 @@
+/* Light Mode Styles */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* العنوان */
+.title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 1);
+}
+
+/* التعليمات */
+.subtitle {
+    -fx-font-size: 14px;
+    -fx-text-fill: #666666;
+    -fx-font-style: italic;
+}
+
+/* منطقة المحادثة */
+.chat-scroll-pane {
+    -fx-background: #ffffff;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-pref-height: 300;
+    -fx-pref-width: 600;
+    -fx-padding: 10;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+}
+
+.chat-history {
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+}
+
+/* الرسائل */
+.message-user {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2e7d32;
+    -fx-background-color: #e8f5e9;
+    -fx-background-radius: 10;
+    -fx-padding: 8 12 8 12;
+    -fx-wrap-text: true;
+}
+
+.message-assistant {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-background-color: #f0f0f0;
+    -fx-background-radius: 10;
+    -fx-padding: 8 12 8 12;
+    -fx-wrap-text: true;
+}
+
+.message-system {
+    -fx-font-size: 14px;
+    -fx-text-fill: #d32f2f;
+    -fx-background-color: #ffebee;
+    -fx-background-radius: 10;
+    -fx-padding: 8 12 8 12;
+    -fx-wrap-text: true;
+}
+
+/* حقل الإدخال */
+.question-field {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+    -fx-prompt-text-fill: #888888;
+    -fx-background-radius: 20;
+    -fx-padding: 8 15 8 15;
+    -fx-font-size: 14px;
+    -fx-border-radius: 20;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+}
+
+/* الأزرار */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.button-secondary {
+    -fx-background-color: #888888;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 1);
+}
+
+.button-secondary:hover {
+    -fx-background-color: #777777;
+}
+
+.button-back {
+    -fx-background-color: transparent;
+    -fx-text-fill: #666666;
+    -fx-font-size: 14px;
+    -fx-border-color: #666666;
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+}
+
+.button-back:hover {
+    -fx-text-fill: #888888;
+    -fx-border-color: #888888;
+}

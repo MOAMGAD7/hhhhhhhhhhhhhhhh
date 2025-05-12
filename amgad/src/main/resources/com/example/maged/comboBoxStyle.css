@@ -1,0 +1,50 @@
+.styled-combo-box .list-cell {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+}
+
+.styled-combo-box .list-view {
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+    -fx-background-radius: 15;
+    -fx-border-color: #008cff;
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+}
+
+.styled-combo-box .list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 5 10;
+}
+
+.styled-combo-box .list-view .list-cell:hover,
+.styled-combo-box .list-view .list-cell:focused {
+    -fx-background-color: rgba(0, 140, 255, 0.3);
+}
+
+.styled-combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.styled-combo-box .arrow {
+    -fx-background-color: white;
+}
+
+.styled-combo-box .scroll-bar {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.styled-combo-box .scroll-bar .thumb {
+    -fx-background-color: rgba(0, 140, 255, 0.5);
+    -fx-background-radius: 10;
+}
+
+.styled-combo-box .scroll-bar .increment-button,
+.styled-combo-box .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}

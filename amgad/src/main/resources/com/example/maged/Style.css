@@ -1,0 +1,98 @@
+
+.menu-item:hover {
+    -fx-background-color: rgba(200, 200, 200, 0.2); /* Semi-transparent gray */
+    -fx-background-radius: 25;
+    -fx-underline: true;    /* خط تحت النص */
+    -fx-cursor: hand;       /* شكل اليد عند المرور */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0.0, 0, 3);
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.menu-item Label {
+    -fx-font-weight: bold;
+}
+
+.label-link:hover {
+    -fx-background-color: rgba(200, 200, 200, 0.2); /* Semi-transparent gray */
+    -fx-background-radius: 25;
+    -fx-underline: true;    /* خط تحت النص */
+    -fx-cursor: hand;       /* شكل اليد عند المرور */
+}
+
+.button-main:hover {
+    -fx-background-color: linear-gradient(to right, #0073e6, #0099cc);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0.0, 0, 3);
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+/* style.css */
+.stack-pane {
+    -fx-background-color: transparent;
+}
+
+.image-view {
+    -fx-background-color: transparent;
+}
+/**/
+
+
+.country:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0.0, 0, 3);
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+
+}
+/**/
+.menu-item:hover {
+    -fx-background-color: rgba(200, 200, 200, 0.2); /* Semi-transparent gray */
+    -fx-background-radius: 25;
+    -fx-underline: true;    /* خط تحت النص */
+    -fx-cursor: hand;       /* شكل اليد عند المرور */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0.0, 0, 3);
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.menu-item Label {
+    -fx-font-weight: bold;
+}
+
+.chart-bar-background{
+-fx-background-color: transparent;
+}
+
+.default-color0.chart-bar {
+    -fx-bar-fill: #008cff; /* Incomes */
+    -fx-background-radius: 10;  /* يخلي الحواف ناعمة */
+    -fx-padding: 0;
+}
+.default-color1.chart-bar {
+    -fx-bar-fill: #B3D4FF; /* Expenses */
+    -fx-background-radius: 10;  /* يخلي الحواف ناعمة */
+    -fx-padding: 0;
+}
+
+
+.chart-legend {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-max-height: 0;
+    -fx-opacity: 0;
+}
+
+.chart-title {
+    -fx-font-family: "Arial";      /* نوع الخط */
+    -fx-font-size: 18px;           /* حجم الخط */
+    -fx-font-weight: bold;         /* خلي العنوان Bold */
+    -fx-text-alignment: left;     /* محاذاة النص */
+    -fx-alignment: center-left;   /* يحركه ناحية اليمين */
+    -fx-padding: 0 0 40 60;        /* padding علشان تبعده عن الحواف */
+}
+
+.Money {
+ -fx-background-color: linear-gradient(to right, #0073e6, #0099cc);
+     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 8, 0.0, 0, 3);
+
+ }
